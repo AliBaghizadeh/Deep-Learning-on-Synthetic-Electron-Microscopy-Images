@@ -17,4 +17,6 @@ To accomplish the project, I have used following packages:<br><br>
 ### Files and Instructions
 
 1- ***lattice_randoms_split_data***:  <br>
+ &nbsp;&nbsp;&nbsp;This file will split your original dataset to train and valid folders. I recommend to have a test dataset as well. <br>
 2- ***random_lattices_vgg_ImageAug***: <br>
+ &nbsp;&nbsp;&nbsp;This file applies image augmentation from keras.ImageAugmentation and then use pretrained weights of vgg model. This method is not memory friendly for large datasets.<br>
