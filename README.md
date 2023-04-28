@@ -17,10 +17,10 @@ To accomplish the project, I have used following packages:<br><br>
 ### Files and Instructions
 
 1- ***random_lattice_split_data***:  <br>
-&nbsp;&nbsp;&nbsp;This file will split your original dataset to train and valid folders. This approach is more suitable for using Image Augmentation generator of the Keras and &nbsp;&nbsp;&nbsp;in case you need to preserve the structure of the folder of the original images and classes. I recommend having a test dataset as well. <br>
+&nbsp;&nbsp;&nbsp;This file will split your original dataset to train and valid folders. This approach is more suitable for using Image Augmentation generator of  &nbsp;&nbsp;&nbsp;the Keras and in case you need to preserve the structure of the folder of the original images and classes. I recommend having a test dataset as well. <br>
 2- ***random_lattices_vgg_ImageAug***: <br>
- &nbsp;&nbsp;&nbsp;This file applies image augmentation from keras.ImageAugmentation and then use pretrained weights of vgg model. This method is not memory friendly for large  datasets.<br>
+&nbsp;&nbsp;&nbsp;This file applies image augmentation from keras.ImageAugmentation and then use pretrained weights of vgg model. This method is not memory friendly for large  datasets.<br>
 3- ***random_lattices_vgg_tf_data_dataset***:  <br>
- &nbsp;&nbsp;&nbsp;This file applies image augmentation from tf.data.dataset on whole images, split data to train and valid datasets and then uses pretrained weights of vgg model &nbsp;&nbsp;&nbsp;for training a model with optional dense layers. This method is memory friendly for large datasets.<br>
+&nbsp;&nbsp;&nbsp;This file applies image augmentation from tf.data.dataset on whole images, split data to train and valid datasets and then uses pretrained weights of vgg model &nbsp;&nbsp;&nbsp;for training a model with optional dense layers. This method is memory friendly for large datasets.<br>
 4- ***random_lattices_ResNet50***: <br>
- &nbsp;&nbsp;&nbsp;This file applies image augmentation from tf.data.dataset on whole images, split data to train and valid datasets and then uses pretrained weights of ResNet50  &nbsp;&nbsp;&nbsp;model for training a model with optional dense layers. This method is memory friendly for large datasets.<br>
+&nbsp;&nbsp;&nbsp;This file applies image augmentation from tf.data.dataset on whole images, split data to train and valid datasets and then uses pretrained weights of ResNet50  &nbsp;&nbsp;&nbsp;model for training a model with optional dense layers. This method is memory friendly for large datasets.<br>
