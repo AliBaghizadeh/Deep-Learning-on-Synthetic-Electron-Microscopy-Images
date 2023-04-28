@@ -1,4 +1,4 @@
-# Deep-Learning-on-Synthetic-Electron-Microscopy
+# Deep-Learning-on-Synthetic-Electron-Microscopy-Images
 
 ### Introduction
 This project provides a conceptual journey into the use of most common deep learning architects like vgg, ResNet, Inception, etc., including image augmentation applied on high-resolution scanning electron microscopy (STEM) images of lattices which were created in another repository in my GitHub (**Synthetic-Microscopy-Images**).
