@@ -21,7 +21,7 @@ To accomplish the project, I have used following packages:<br><br>
 &nbsp;&nbsp;&nbsp;as well. <br>
 2- ***random_lattices_vgg_ImageAug***: <br>
 &nbsp;&nbsp;&nbsp;This file applies image augmentation from keras.ImageAugmentation and then use pretrained weights of vgg model. This method is not 
-&nbsp;&nbsp;&nbsp;memory friendly for large  datasets.<br>
+&nbsp;&nbsp;&nbsp;memory friendly for large datasets.<br>
 3- ***random_lattices_vgg_tf_data_dataset***:  <br>
 &nbsp;&nbsp;&nbsp;This file applies image augmentation from tf.data.dataset on whole images, split data to train and valid datasets and then uses pretrained &nbsp;&nbsp;&nbsp;weights of vgg model for training a model with optional dense layers. This method is memory friendly for large datasets.<br>
 4- ***random_lattices_ResNet50***: <br>
